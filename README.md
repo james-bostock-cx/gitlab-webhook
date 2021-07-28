@@ -83,6 +83,13 @@ used.
   `{project_path_with_namespace}` value for the sample Webhook request
   below would be `james-bostock-cx-webhook-test`.
 
+### GitLab Token
+
+The application expects a token to have been configured for the
+Webhook. GitLab sends this token in the `X-GitLab-Token` HTTP
+header. To specify the value of the token, use the `GITLAB_TOKEN`
+environment variable.
+
 ### Logging
 
 The log level can be specified by setting the `LOG_LEVEL` environment
