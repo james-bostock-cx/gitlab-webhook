@@ -47,19 +47,19 @@
         },
         "charset-normalizer": {
             "hashes": [
-                "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1",
-                "sha256:c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"
+                "sha256:0c8911edd15d19223366a194a513099a302055a962bca2cec0f54b8b63175d8b",
+                "sha256:f23667ebe1084be45f6ae0538e4a5a865206544097e4e8bbcacf42cd02a348f3"
             ],
             "markers": "python_version >= '3'",
-            "version": "==2.0.3"
+            "version": "==2.0.4"
         },
         "checkmarxpythonsdk": {
             "hashes": [
-                "sha256:4bfade8497fb0aff714b8670323ff6d137d6cc236a6d03d1c74297cf4796ef2d",
-                "sha256:efef495334809b81068ff9cfbaf3694574d281e2d7b4c2ab78acee25b0a29f04"
+                "sha256:3ccb47e5d5ba3fce6e5d31a5e5821d4a8ac1de9642475be41248145cda5300d1",
+                "sha256:ad5fd6a226c45fa11cff0feaec6b129e18c4325da44e8119622ede66f862fba1"
             ],
             "index": "pypi",
-            "version": "==0.2.8"
+            "version": "==0.2.9"
         },
         "click": {
             "hashes": [
@@ -68,14 +68,6 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==8.0.1"
-        },
-        "colorama": {
-            "hashes": [
-                "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
-                "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
-            ],
-            "markers": "platform_system == 'Windows'",
-            "version": "==0.4.4"
         },
         "defusedxml": {
             "hashes": [
