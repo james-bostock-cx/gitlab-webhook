@@ -1,0 +1,13 @@
+[project]
+name = "gitlab-webhook"
+version = "0.1.0"
+description = "A consumer of GitLab webhooks"
+readme = "README"
+license = {file = "LICENSE"}
+authors = [
+  {email = "James.Bostock@checkmarx.com"},
+  {name = "James Bostock"}
+]
+
+[project.urls]
+homepage = "https://github.com/james-bostock-cx/gitlab-webhook"
