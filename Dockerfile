@@ -4,11 +4,14 @@ FROM python:3.9-slim-buster
 
 WORKDIR /app
 
-RUN pip3 install pipenv
+RUN useradd -ms /bin/bash gw
+USER gw
+WORKDIR /home/gw
 
 COPY . .
-RUN pipenv install --deploy --ignore-pipfile
+
+RUN pip3 --no-cache-dir install -r requirements.txt .
 
 ENV FLASK_APP=gitlab-webhook-flask
 
-CMD [ "pipenv", "run", "flask", "run", "--host=0.0.0.0"]
+CMD [ "/home/gw/.local/bin/flask", "run", "--host=0.0.0.0"]

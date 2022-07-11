@@ -48,10 +48,14 @@ To run the application, set the appropriate environment variables (see
 below) and then run the following commands:
 
 ```
-PS C\...\gitlab-webhook> pipenv shell
+PS C\...\gitlab-webhook> py -m venv C:\path\to\venv
+PS C\...\gitlab-webhook> C:\path\to\venv\Activate.ps1
+PS C\...\gitlab-webhook> py -m pip install -r requirements.txt .
 PS C\...\gitlab-webhook> $Env:FLASK_APP = 'gitlab-webhook-flask'
 PS C\...\gitlab-webhook> flask run
 ```
+
+The installation step only has to be done once per virtual environment.
 
 ## Configuration
 
@@ -164,3 +168,4 @@ Here is a sample GitLab push event payload sent on deletion of the
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 - [GitLab issue #25305: Trigger webhook on branch removal](https://gitlab.com/gitlab-org/gitlab/-/issues/25305)
 - [Write Gitlab Webhook using Flask to automatically pull code to the server](https://www.programmersought.com/article/9998712133/)
+- [Python venv module](https://docs.python.org/3/library/venv.html)
