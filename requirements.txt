@@ -1,2 +1,2 @@
-CheckmarxPythonSDK == 0.6.7
+CheckmarxPythonSDK == 0.6.8
 Flask == 2.2.2
