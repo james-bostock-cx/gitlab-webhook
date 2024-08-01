@@ -1,6 +1,6 @@
 # gitlab-webhook-flask.py
 #
-# A hanfler for GitLab Webhooks. Currently only handles push events
+# A handler for GitLab Webhooks. Currently only handles push events
 # sent upon branch deletion.
 #
 # Copyright 2021 Checkmarx
