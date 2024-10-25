@@ -1,6 +1,6 @@
 # Introduction
 
-The **gitlab-webhook-flask** application is a *proof of concept*
+The **gitlab-webhook-flask** application is a *proof-of-concept*
 [Flask](https://flask.palletsprojects.com/en/2.0.x/) application
 which, on receipt of a branch deletion push event Webhook request from
 GitLab, deletes the Checkmarx CxSAST project associated with the
