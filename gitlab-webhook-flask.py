@@ -18,6 +18,7 @@
 # limitations under the License.
 
 # Password: changem
+# Password: changeme
 
 from http import HTTPStatus
 from flask import Flask, request, jsonify
