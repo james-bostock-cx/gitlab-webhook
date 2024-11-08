@@ -17,6 +17,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Password: changem
+
 from http import HTTPStatus
 from flask import Flask, request, jsonify
 from logging.config import dictConfig
