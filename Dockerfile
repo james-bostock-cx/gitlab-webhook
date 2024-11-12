@@ -3,7 +3,7 @@
 FROM python:3.13-slim
 
 # Install curl
-RUN apt-get update && apt-get install -y curl
+RUN apt-get update && apt-get install -y curl=7.88.1-10+deb12u8
 
 WORKDIR /app
 
