@@ -11,3 +11,6 @@ authors = [
 
 [project.urls]
 homepage = "https://github.com/james-bostock-cx/gitlab-webhook"
+
+[tool.setuptools.packages]
+find = {}
