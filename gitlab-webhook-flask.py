@@ -20,6 +20,7 @@
 from http import HTTPStatus
 from flask import Flask, request, jsonify
 from flask_talisman import Talisman
+from flask_wtf.csrf import CSRFProtect
 from logging.config import dictConfig
 import os
 
@@ -46,6 +47,7 @@ dictConfig({
 })
 
 app = Flask(__name__)
+CSRFProtect(app)
 Talisman(app)
 cx = ProjectsAPI()
 
