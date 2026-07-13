@@ -3,7 +3,7 @@
 # A handler for GitLab Webhooks. Currently only handles push events
 # sent upon branch deletion.
 #
-# Copyright 2021 Checkmarx
+# Copyright 2021-2026 Checkmarx
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@
 
 from http import HTTPStatus
 from flask import Flask, request, jsonify
+from flask_talisman import Talisman
 from logging.config import dictConfig
 import os
 
@@ -45,6 +46,7 @@ dictConfig({
 })
 
 app = Flask(__name__)
+Talisman(app)
 cx = ProjectsAPI()
 
 GITLAB_TOKEN = os.environ['GITLAB_TOKEN']
