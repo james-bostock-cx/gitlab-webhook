@@ -3,7 +3,7 @@
 # A handler for GitLab Webhooks. Currently only handles push events
 # sent upon branch deletion.
 #
-# Copyright 2021 Checkmarx
+# Copyright 2021-2026 Checkmarx
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
